@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+	font-family: Vazir;
+	font-style: normal;
+	font-weight: bold;
+	src: url('assets/fonts/Vazir/Vazir-Medium-FD.ttf');
+	src: url('assets/fonts/Vazir/Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('assets/fonts/Vazir/Vazir-Medium-FD.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('assets/fonts/Vazir/Vazir-Medium-FD.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('assets/fonts/Vazir/Vazir-Medium-FD.ttf') format('truetype');
+}
+body{
+    font-family: Vazir !Important;
+}
+.page-title{
+  font-family: Vazir !important;
+}
+.box-title{
+  font-family: Vazir !important;
+}
+.title-candles{
+  margin-left: 10px;
+}
