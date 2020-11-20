@@ -21,3 +21,6 @@ body{
 .title-candles{
   margin-left: 10px;
 }
+.main-menu-active{
+  background-color:#2962FF !Important;
+}

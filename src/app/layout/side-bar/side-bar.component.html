@@ -1,0 +1,78 @@
+<!-- Left side column. contains the logo and sidebar -->
+<aside class="main-sidebar">
+  <!-- sidebar-->
+  <section class="sidebar">
+    <!-- sidebar menu-->
+    <ul class="sidebar-menu" data-widget="tree">
+      <li class="user-profile treeview">
+        <a href="index.html">
+          <img src="../../assets/images/avatar/10.jpg" alt="user" />
+          <span>
+            <span class="d-block font-weight-600 font-size-16">محمد ظفری</span>
+            <span class="email-id">zafari.ecom@gmail.com</span>
+          </span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-right pull-right"></i>
+          </span>
+        </a>
+        <ul class="treeview-menu">
+          <li>
+            <a href="javascript:void()"
+              ><i class="fa fa-user mr-5"></i>پروفایل من
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void()"
+              ><i class="fa fa-money mr-5"></i>وضعیت مالی</a
+            >
+          </li>
+          <li>
+            <a href="javascript:void()"
+              ><i class="fa fa-envelope-open mr-5"></i>پیام های دریافتی</a
+            >
+          </li>
+          <li>
+            <a href="javascript:void()"
+              ><i class="fa fa-cog mr-5"></i>تنظیمات حساب کاربری</a
+            >
+          </li>
+          <li>
+            <a href="javascript:void()"
+              ><i class="fa fa-power-off mr-5"></i>خروج از سامانه</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="header nav-small-cap">
+        <i class="mdi mdi-drag-horizontal mr-5"></i>داشبورد
+      </li>
+      <li [routerLinkActive]="'main-menu-active'">
+        <a href="charts_chartjs.html" [routerLink]="['dashboard']" [routerLinkActive]="'main-menu-active'">
+          <i class="mdi mdi-chart-bar"></i>
+          <span>وضعیت عمومی کندل ها</span>
+        </a>
+      </li>
+
+      <li class="header nav-small-cap">
+        <i class="mdi mdi-drag-horizontal mr-5"></i>اطلاعات مالی
+      </li>
+
+      <li class="treeview">
+        <a href="#">
+          <i class="mdi mdi-chart-line"></i>
+          <span>کندل ها</span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-right pull-right"></i>
+          </span>
+        </a>
+        <ul class="treeview-menu">
+          <li class="active">
+            <a href="../index.html" class="active"
+              ><i class="mdi mdi-toggle-switch-off"></i>هامر</a
+            >
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</aside>

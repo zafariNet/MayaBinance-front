@@ -36,8 +36,8 @@
               "src/assets/extra/vendor_components/bootstrap/dist/js/bootstrap.min.js",
               "src/assets/extra/vendor_components/jquery-slimscroll/jquery.slimscroll.min.js",
               "src/assets/extra/vendor_components/fastclick/lib/fastclick.js",
-              "src/assets/theme/js/template.js",
-              "src/assets/theme/js/demo.js"
+              "src/assets/theme/js/template.js"
+
 
             ]
           },
