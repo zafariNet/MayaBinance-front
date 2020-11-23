@@ -1,0 +1,14 @@
+{
+  "en":"English",
+  "fa":"Persian",
+  "userName": "User Name",
+  "password": "Password",
+  "signIn":"SIGN IN",
+  "rememberMe":"Remember Me",
+  "forgetPassword" : "Forget password ?",
+  "haveNoAccount" : "Don't have an account? ",
+  "signUp":"Sign Up",
+  "intelligenceBinanceSystem":"Intelligence Binance System",
+  "maya" : "MAYA",
+  "pleaseWait":"Please wait"
+}

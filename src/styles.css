@@ -24,3 +24,7 @@ body{
 .main-menu-active{
   background-color:#2962FF !Important;
 }
+.content-top-agile h2{
+  letter-spacing: 0px !important;
+  font-family: 'Vazir';
+}

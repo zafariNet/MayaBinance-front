@@ -37,7 +37,7 @@
             >
           </li>
           <li>
-            <a href="javascript:void()"
+            <a [routerLink]="['/account/login']"
               ><i class="fa fa-power-off mr-5"></i>خروج از سامانه</a
             >
           </li>
@@ -47,7 +47,7 @@
         <i class="mdi mdi-drag-horizontal mr-5"></i>داشبورد
       </li>
       <li [routerLinkActive]="'main-menu-active'">
-        <a href="charts_chartjs.html" [routerLink]="['dashboard']" [routerLinkActive]="'main-menu-active'">
+        <a href="charts_chartjs.html" [routerLink]="['/dashboard']" [routerLinkActive]="'main-menu-active'">
           <i class="mdi mdi-chart-bar"></i>
           <span>وضعیت عمومی کندل ها</span>
         </a>
